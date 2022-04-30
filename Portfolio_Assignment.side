@@ -1,0 +1,597 @@
+{
+  "id": "876ef65c-14ff-4289-8d57-9723007589df",
+  "version": "2.0",
+  "name": "Portfolio",
+  "url": "https://www.ilovepdf.com/",
+  "tests": [{
+    "id": "f7e1f294-606b-43ff-900c-85ee12c2c1b2",
+    "name": "Sign up",
+    "commands": [{
+      "id": "ff68460b-ddd2-41f3-b2a0-2b5bc3cc5b93",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ilovepdf.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce167b66-2f79-42fa-904b-4cbdc96b25de",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa76848f-7efc-491a-93e6-ae5758296916",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > span:nth-child(2)",
+      "targets": [
+        ["css=a > span:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98c6d0e9-968d-4ba6-becc-4a9db3da802f",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=SignupForm[name]", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Rujuta"
+    }, {
+      "id": "00a8abff-7794-4df8-b90e-0639b7e14886",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupEmail",
+      "targets": [
+        ["id=signupEmail", "id"],
+        ["name=SignupForm[email]", "name"],
+        ["css=#signupEmail", "css:finder"],
+        ["xpath=//input[@id='signupEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d72e8f0-2641-42af-845e-69349112656c",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupEmail",
+      "targets": [
+        ["id=signupEmail", "id"],
+        ["name=SignupForm[email]", "name"],
+        ["css=#signupEmail", "css:finder"],
+        ["xpath=//input[@id='signupEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "rujutathorat1993@gmail.com"
+    }, {
+      "id": "8f0fb72e-0e77-4ee6-a0ce-646f1e689cce",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=SignupForm[password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3130bf5-56d9-4abf-8fe3-f7f4ff0c958b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=SignupForm[password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "PleaseDone123$"
+    }, {
+      "id": "ac938ce4-6794-41c8-82fb-ddf424471745",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-actions",
+      "targets": [
+        ["css=.form-actions", "css:finder"],
+        ["xpath=//form[@id='signupForm']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf1c2cff-ac79-4d3b-8358-df29beb4a80e",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerButton",
+      "targets": [
+        ["id=registerButton", "id"],
+        ["css=#registerButton", "css:finder"],
+        ["xpath=//button[@id='registerButton']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "38812ef6-e814-407a-91f9-b552ee8bb6cf",
+    "name": "Login - invalid",
+    "commands": [{
+      "id": "2892003c-2720-4171-9a0b-bd13ca36fde7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ilovepdf.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43e69455-1c3e-4984-825d-d576069e52af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3e6a1eb-9d28-404e-a27a-87da217f21a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > span:nth-child(1)",
+      "targets": [
+        ["css=a > span:nth-child(1)", "css:finder"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc10fca2-a496-46fc-9a03-42beb1f90b11",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=LoginForm[email]", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b65af2b-3b38-4506-967c-8679ea5a51ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=LoginForm[email]", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "rujutathorat1993@gmail.com"
+    }, {
+      "id": "4df08700-9004-45c0-8328-73bff59a6b96",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputPasswordAuth",
+      "targets": [
+        ["id=inputPasswordAuth", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#inputPasswordAuth", "css:finder"],
+        ["xpath=//input[@id='inputPasswordAuth']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42896252-78fc-4ab0-80e1-1b8e9ae00b7b",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPasswordAuth",
+      "targets": [
+        ["id=inputPasswordAuth", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#inputPasswordAuth", "css:finder"],
+        ["xpath=//input[@id='inputPasswordAuth']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Pleasedone123$"
+    }, {
+      "id": "cd76012e-0b7e-4a73-af36-f24df7a1bb71",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginBtn",
+      "targets": [
+        ["id=loginBtn", "id"],
+        ["css=#loginBtn", "css:finder"],
+        ["xpath=//button[@id='loginBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "55983f50-1243-44d0-9981-829d3bb4cd0a",
+    "name": "Login - valid",
+    "commands": [{
+      "id": "b38fd035-0fe1-4421-80c1-ab3fb0dec004",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ilovepdf.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e8e1965-553b-4323-8014-5ff6f47daf5d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64b685c3-5d0c-4da9-9564-388ad7414438",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > span:nth-child(1)",
+      "targets": [
+        ["css=a > span:nth-child(1)", "css:finder"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64eccc12-1150-439f-b8d1-3804556744ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=LoginForm[email]", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab398946-59ea-48c5-abad-8af6e33987c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginEmail",
+      "targets": [
+        ["id=loginEmail", "id"],
+        ["name=LoginForm[email]", "name"],
+        ["css=#loginEmail", "css:finder"],
+        ["xpath=//input[@id='loginEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "rujutathorat1993@gmail.com"
+    }, {
+      "id": "b6c21ede-f7d9-4e93-93db-fc24957980ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputPasswordAuth",
+      "targets": [
+        ["id=inputPasswordAuth", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#inputPasswordAuth", "css:finder"],
+        ["xpath=//input[@id='inputPasswordAuth']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71a1f812-2290-4cb0-af13-e8d307ca1c78",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPasswordAuth",
+      "targets": [
+        ["id=inputPasswordAuth", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#inputPasswordAuth", "css:finder"],
+        ["xpath=//input[@id='inputPasswordAuth']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "PleaseDone123$"
+    }, {
+      "id": "a650f3e6-9aa9-40a1-8a0a-e1e46bfb8bdb",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginBtn",
+      "targets": [
+        ["id=loginBtn", "id"],
+        ["css=#loginBtn", "css:finder"],
+        ["xpath=//button[@id='loginBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f48725cf-75a5-4f71-afc9-9a39ffe5e264",
+    "name": "Sing Up - invalid entries",
+    "commands": [{
+      "id": "ab07850a-ac6a-4abe-b5cb-f707230addd4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ilovepdf.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeb588dc-37d8-4efc-8acf-98d805ddf047",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac8f97d4-3e4d-40ef-9153-6854e8f67a23",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > span:nth-child(2)",
+      "targets": [
+        ["css=a > span:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2f1acad-db17-4ca9-9d72-22702aabf7e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=SignupForm[name]", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "551a1d71-70a4-4d06-9a1d-71f6da586d2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=SignupForm[name]", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "abcads@gmail.com"
+    }, {
+      "id": "5879a7ed-946d-48c5-916f-7a3583a25ee7",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupEmail",
+      "targets": [
+        ["id=signupEmail", "id"],
+        ["name=SignupForm[email]", "name"],
+        ["css=#signupEmail", "css:finder"],
+        ["xpath=//input[@id='signupEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8fb9af4-e8d7-4abd-9053-1b3c4150e417",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupEmail",
+      "targets": [
+        ["id=signupEmail", "id"],
+        ["name=SignupForm[email]", "name"],
+        ["css=#signupEmail", "css:finder"],
+        ["xpath=//input[@id='signupEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Peter"
+    }, {
+      "id": "41575b81-d129-4abd-ae62-5a4cfcdb91dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=SignupForm[password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ace9352-11f2-474a-925e-62ce5d57083e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=SignupForm[password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "AQwertyxsd123$"
+    }, {
+      "id": "d87ed023-5d62-44c9-8159-352361028e72",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerButton",
+      "targets": [
+        ["id=registerButton", "id"],
+        ["css=#registerButton", "css:finder"],
+        ["xpath=//button[@id='registerButton']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "905d45dd-c865-4bf0-96e1-95b3c617efa2",
+    "name": "Watermark PDF",
+    "commands": [{
+      "id": "81890dec-6740-4155-917e-4be33d3c618d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ilovepdf.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c312ce31-3a44-482d-ac99-bcbb0c4038e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5e35529-4ada-4e3f-8757-9649628c3354",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tools__item:nth-child(14) .tools__item__icon",
+      "targets": [
+        ["css=.tools__item:nth-child(14) .tools__item__icon", "css:finder"],
+        ["xpath=//div[14]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e609596-1982-4347-9a65-a0514d21d8f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pickfiles > span",
+      "targets": [
+        ["css=#pickfiles > span", "css:finder"],
+        ["xpath=//a[@id='pickfiles']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Select PDF file')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3373b866-4b4b-4ef9-8f16-b5b8d830da4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=html5_1g1u8r4na1bv41gjd13t7r2ne94",
+      "targets": [
+        ["id=html5_1g1u8r4na1bv41gjd13t7r2ne94", "id"],
+        ["css=#html5_1g1u8r4na1bv41gjd13t7r2ne94", "css:finder"],
+        ["xpath=//input[@id='html5_1g1u8r4na1bv41gjd13t7r2ne94']", "xpath:attributes"],
+        ["xpath=//div[@id='html5_1g1u8r4na1bv41gjd13t7r2ne94_container']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f4dd69-c8e8-41f9-8190-cc8c42f849b8",
+      "comment": "",
+      "command": "click",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.form__group > div > .input", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='tab-content-text']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9fdeff1-54ce-4a67-b4a4-7c7d0fcb6a85",
+      "comment": "",
+      "command": "type",
+      "target": "name=text",
+      "targets": [
+        ["name=text", "name"],
+        ["css=.form__group > div > .input", "css:finder"],
+        ["xpath=//input[@name='text']", "xpath:attributes"],
+        ["xpath=//div[@id='tab-content-text']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "SoftwareTestingPortfolio"
+    }, {
+      "id": "893ea058-dfc6-4b89-8655-fc0eace283aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option__page__row:nth-child(3) > .option__page__position:nth-child(3)",
+      "targets": [
+        ["css=.option__page__row:nth-child(3) > .option__page__position:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='watermark-options']/div[3]/div/div/div/div[3]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f3ba0f9-2e3c-4c1d-ada1-e5bbe96ca654",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option__page__row:nth-child(3) > .option__page__position:nth-child(2)",
+      "targets": [
+        ["css=.option__page__row:nth-child(3) > .option__page__position:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='watermark-options']/div[3]/div/div/div/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d49a361-8fc4-4cfc-844b-1539bd3e7579",
+      "comment": "",
+      "command": "click",
+      "target": "id=processTaskTextBtn",
+      "targets": [
+        ["id=processTaskTextBtn", "id"],
+        ["css=#processTaskTextBtn", "css:finder"],
+        ["xpath=//span[@id='processTaskTextBtn']", "xpath:attributes"],
+        ["xpath=//button[@id='processTask']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add watermark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e96dde7-b414-4bee-8783-e286387b9db9",
+      "comment": "",
+      "command": "click",
+      "target": "id=pickfiles",
+      "targets": [
+        ["id=pickfiles", "id"],
+        ["linkText=Download PDF with watermark", "linkText"],
+        ["css=#pickfiles", "css:finder"],
+        ["xpath=//a[@id='pickfiles']", "xpath:attributes"],
+        ["xpath=//div[@id='download']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://api56.ilovepdf.com/v1/download/rxb30jzspzAglhbx32l3src9zA20ph26wtk1w8nc1h70lsnc51qx2v27ygpwpf3l62jv9b2kzgAq8w2yhjsy15xt48nb37vh2mlqx4qzdtfAs472lhtrlrsrcwhy297j463fhsl9pgypk9lsjs6l960gzcl5gls6jcn95bp20yz67nsx8gd1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download PDF with watermark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f0114bbd-ecd7-4b8f-b1c6-91a7f7c49fe3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ilovepdf.com/"],
+  "plugins": []
+}
